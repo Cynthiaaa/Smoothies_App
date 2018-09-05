@@ -3,12 +3,12 @@ import firestore from 'firebase/firestore'
 
 // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyCsuBbxM51lSjRa9sVWL7Tg3snW6Nemlfw",
-    authDomain: "greensmoothies-3be51.firebaseapp.com",
-    databaseURL: "https://greensmoothies-3be51.firebaseio.com",
-    projectId: "greensmoothies-3be51",
-    storageBucket: "greensmoothies-3be51.appspot.com",
-    messagingSenderId: "111244723356"
+    apiKey: "My API KEY",
+    authDomain: "myApp.firebaseapp.com",
+    databaseURL: "https://myApp.firebaseio.com",
+    projectId: "myAppName",
+    storageBucket: "myApp.appspot.com",
+    messagingSenderId: "messagingSenderID"
   };
   const firebaseApp = firebase.initializeApp(config);
 
